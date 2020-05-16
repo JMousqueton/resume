@@ -70,6 +70,5 @@ Or make a [pull request](//github.com/jmousqueton/resume/pulls).
 
 ## License
 
-MIT 2.0 
-
+MIT 2.0
 
