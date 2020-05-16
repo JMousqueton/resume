@@ -61,12 +61,10 @@ To generate your site in the `public` folder, execute the following:
 
 within the root of your project.
 
-
 ## Contributing
 
 Post bugs and contributions to the [issue tracker](//github.com/jmousqueton/resume/issues). 
 Or make a [pull request](//github.com/jmousqueton/resume/pulls).
-
 
 ## License
 
