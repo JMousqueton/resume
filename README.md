@@ -41,7 +41,7 @@ After successful installation as a minimum you need to take the following steps:
 
 ### Setup
 
-Go to [`exampleSite`](//github.com/jmousqueton/jmousqueton.github.io/) and copy 
+Go to [`Julien Mousqueton's resume repository`](//github.com/jmousqueton/jmousqueton.github.io/) and copy 
 [`config.toml`]((//github.com/jmousqueton/jmousqueton.github.io/blob/master/config.toml) 
 to the root of your site. Open `config.toml` and add your relevant information.
 
