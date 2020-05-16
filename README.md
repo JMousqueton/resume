@@ -1,6 +1,6 @@
 # Hugo Resume Theme
 
-This is my Resume theme for hugo based on ![hugo DevResume Theme](https://github.com/cowboysmall-tools/hugo-devresume-theme)
+This is my Resume theme for hugo based on [hugo DevResume Theme](https://github.com/cowboysmall-tools/hugo-devresume-theme)
 
 ## Features
 
