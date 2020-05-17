@@ -110,9 +110,9 @@ a.theme-link {
 }
 
 .resume-name {
-	font-size: 2.75rem;
+	font-size: 2.50rem;
 	font-weight: 900;
-	letter-spacing: 0.4rem;
+	letter-spacing: 0.1rem;
 	color: $theme-color-primary;
 
 }
@@ -210,7 +210,9 @@ a.resume-link {
     }
 }
 
-
+.center-on-mobile {
+  text-align: center!important
+  }
 
 
 
