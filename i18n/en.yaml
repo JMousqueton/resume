@@ -20,3 +20,5 @@
   translation:  Driving Licence
 - id: years
   translation: Years old
+- id: available
+  translation: Available
