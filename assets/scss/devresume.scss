@@ -208,13 +208,16 @@ a.resume-link {
 	.resume-contact {
 	    border-left: 0;
     }
+
+    .center-on-mobile {
+        text-align: center!important
+    }
+
+    .resume-list {
+        padding-inline-start: 5px;
+    }
+
+    .p-5 {
+        padding: 2rem!important;
+    }
 }
-
-.center-on-mobile {
-  text-align: center!important
-  }
-
-
-
-
-
