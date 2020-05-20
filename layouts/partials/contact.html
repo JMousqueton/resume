@@ -4,6 +4,14 @@
                                 {{ range .Site.Params.contact.list }}
                                 <li class="mb-2"><i class="{{ .icon }} fa-fw fa-lg mr-2"></i><a class="resume-link" href="{{ .url | safeURL }}">{{ .text }}</a></li>
                                 {{ end }}
-                                <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>{{ .Site.Params.contact.location }}</li>
+                                <li class="mb-2"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>{{ .Site.Params.contact.location }}</li>
+
+                                {{ if .Site.Params.drivinglicence.enable }}
+                                <li class="mb-2"><i class="fas fa-car fa-fw fa-lg mr-2"></i>{{ i18n "drivinglicence" }}</li>
+                                  {{ end }}
+                                  {{ $diff := now.Sub (time .Site.Params.contact.birthDate) }}
+                                  {{ $years := div (div $diff.Hours 24) 365 }}
+                                <li class="mb-2"><i class="fas fa-birthday-cake fa-fw fa-lg mr-2"></i>{{ math.Floor $years }} {{ i18n "years" }}</li>
+
                             </ul>
                         </div><!--//resume-contact-->
