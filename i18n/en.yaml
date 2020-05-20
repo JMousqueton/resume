@@ -16,3 +16,7 @@
   translation: Skills
 - id: speaker
   translation: Speaker
+- id: drivinglicence
+  translation:  Driving Licence
+- id: years
+  translation: Years old
