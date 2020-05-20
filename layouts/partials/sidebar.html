@@ -18,6 +18,10 @@
                             {{ partial "languages.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.speaker.enable }}
+                            {{ partial "speaker.html" . }}
+                            {{ end }}
+
                             {{ if .Site.Params.interests.enable }}
                             {{ partial "interests.html" . }}
                             {{ end }}
