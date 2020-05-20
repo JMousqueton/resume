@@ -8,7 +8,7 @@ description = "Resume is a free Bootstrap 4 resume/CV template made for Hugo."
 homepage = "//github.com/jmousqueton/resume"
 tags = ["cv", "resume"]
 features = ["responsive"]
-min_version = "0.01"
+min_version = "0.1"
 
 [author]
   name = "Julien Mousqueton"
