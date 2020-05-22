@@ -9,6 +9,23 @@
     <meta name="author" content="{{ .Site.Params.author }}">
     <meta name="google-site-verification" content="rsxJFHvvmabCEkTSy-DXfMjzg6O3HEzbtyuX9gnwspI" />
 
+
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta itemprop="name" content="{{ .Site.Title }}" />
+    <meta name="application-name" content="{{ .Site.Title }}" />
+
+    <meta itemprop="description" content="{{ .Site.Params.description }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+
+
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+
     <link rel="shortcut icon" href="/favicon.ico">
 
     <!-- Google Fonts -->
@@ -38,4 +55,4 @@
     <p><img src="//{{ .Site.Params.matomo.url }}/matomo.php?idsite={{ .Site.Params.matomo.siteId }}&amp;rec=1" style="border:0;" alt="" /></p>
     {{ end }}
     {{ end }}
-    <!-- End Matomo Code --> 
+    <!-- End Matomo Code -->
