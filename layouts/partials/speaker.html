@@ -4,7 +4,7 @@
 
     <ul class="list-unstyled resume-interests-list mb-0">
         {{ range .Site.Params.speaker.list }}
-        <li class="mb-2">{{ .details }}</li>
+        <li class="mb-2">{{ with .details }}{{ . | markdownify }}{{ end }}</li>
         {{ end }}
     </ul>
 
